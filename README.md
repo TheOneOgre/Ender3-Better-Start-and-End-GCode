@@ -1,4 +1,4 @@
-# Ender3-Better-Start-and-End-GCode
+# Ender 3 Better Start-and-End G-code
 I created this custom g-code to make my prints start more reliably and quicker, while wasting as little filament as possible, while adding some quality-of-life improvements to the end g-code as well.
 
 This code was tuned using a 0.4mm nozzle, ergo the roughly 0.4mm line width as notated in the Start G-code section, and is based on a 0.28mm layer height.
