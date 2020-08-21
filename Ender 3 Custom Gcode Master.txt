@@ -1,10 +1,11 @@
 ; Ender 3 Custom Start G-code
+M400 ; Wait for all moves and preheats to finish
 G92 E0 ; Reset Extruder
 G28 ; Home all axis
 G1 Z1.0 F600 ; Move Z Axis up little to prevent scratching of heated bed
 G1 X0.1 Y20.0 Z0.28 F7000.0 ; Move to start position
-G1 X0.1 Y100.0 Z0.28 F3000.0 E16.31 ; Draw the first line with 0.4mm width
-G1 X0.1 Y200  Z0.28 F2000.0 E36.7 ; Draw the second part of the line
+G1 X0.1 Y100.0 Z0.28 F3000.0 E16.31 ; Draw the first line with 0.04mm width
+G1 X0.1 Y200  Z0.28 F2000.0 E36.7 ; Draw the second line
 G92 E0 ; Reset Extruder
 G1 Z1.0 F600 ; Move Z Axis up a little to prevent scratching of heated bed
 
